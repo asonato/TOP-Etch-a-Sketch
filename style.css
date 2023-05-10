@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  /* border: 2px solid; */
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+.square {
+  border: 2px solid;
+  border-radius: 2px;
+}
+.color {
+  background-color: black;
+}
